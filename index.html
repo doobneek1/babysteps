@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Formatter + Hyperlinker</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  #preview a {
+    text-decoration: underline;
+  }
+</style>
+
+</head>
+<body>
+
+  <h1>Live Text Formatter</h1>
+
+  <div class="container">
+    <div class="column">
+      <h2>Input</h2>
+      <div id="inputText" contenteditable="true" class="editable-box" placeholder="Paste or type your text..."></div>
+      <button id="forceUpdateButton" style="font-size: 12px; margin-left: 10px;">Update Now</button>
+    </div>
+
+    <div class="column">
+      <h2>Formatted HTML</h2>
+      <pre id="rawHtml" class="html-box"></pre>
+      <button id="copyButton">Copy HTML</button>
+
+    </div>
+
+    <div class="column">
+      <h2>Preview</h2>
+      <div id="preview" class="preview-box"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
