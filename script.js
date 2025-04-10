@@ -259,7 +259,7 @@ document.getElementById('forceUpdateButton').addEventListener('click', () => {
 });
 // Add default example when page loads
 window.addEventListener('DOMContentLoaded', () => {
-  inputText.innerText = `-Food, clothing, shelter, and more at example.org\n
+  inputText.innerText = `-Food, clothing, shelter, and more\n
 (212) 555-1234\n
 https://example.org|(Visit us!)\n
 age(14-24)\n
